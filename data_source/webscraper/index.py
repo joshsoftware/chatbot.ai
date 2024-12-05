@@ -310,7 +310,7 @@ class WebCrawler:
             "websiteDepth": self.depth,
             "websiteMaxNumberOfPages": self.max_pages,
             "lastScrapedDate": timestamp,
-            "filePath": output_dir
+            "filePath": metadata_filename
         }
 
 

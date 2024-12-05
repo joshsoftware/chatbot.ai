@@ -154,3 +154,10 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# generated files
+# stella embedding model
+dunzhang_stella_en_1.5B_v5/
+hfdownloader
+
+#scrap_dumps
+scrap_dump/
