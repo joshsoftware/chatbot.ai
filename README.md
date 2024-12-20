@@ -37,5 +37,34 @@ Without login no question should be responded
 Parse the document only once until it is updated.
 If the document is removed from the drive then the data should also be remove the vectorDB.
 
+## Project Setup
 
+### Ollama Installation 
+
+[Refer this](https://ollama.com/download)
+
+### Llama Installation
+
+Once Ollama is installed, open your terminal or command prompt and run:
+``` ollama pull llama3.2 ```
+
+After the model is downloaded, start using it with this simple command like `ollama list`
+
+### Install postgres 
+If you've postgres version lower than 14, upgrade it to 14 or install latest version.
+For Ubuntu, [refer this](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)
+For Others, [refer this](https://www.postgresql.org/download/)
+
+### Install pgvector
+[Refer this](https://github.com/pgvector/pgvector)
+
+### Clone the repo
+Clone the repository using command:
+```
+git clone git@github.com:joshsoftware/chatbot.ai.git 
+git pull origin feature/ollama-chat
+``` 
+Install the requirement file using command: `pip install -r requirements.txt`
+
+Create environment file and set db url and WebScrapping Varialbles.
 
